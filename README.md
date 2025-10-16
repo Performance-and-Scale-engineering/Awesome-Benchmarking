@@ -2,7 +2,7 @@
 
 A curated collection of **benchmarking resources, performance studies, and scalability tests** across cloud platforms, databases, orchestration tools, AI models, and distributed systems.
 
-> 🧩 Maintained by [Apoorw Anand](https://github.com/apoorvanand) [Performance and Scale Engineering](https://github.com/Performance-and-Scale-engineering)  
+> 🧩 Maintained by [Performance and Scale Engineering](https://github.com/Performance-and-Scale-engineering)  
 > 💡 Focused on real-world metrics — latency, throughput, resource utilization, and resiliency.
 
 ---
@@ -68,51 +68,23 @@ A curated collection of **benchmarking resources, performance studies, and scala
 
 ---
 
-## 🧠 AI / ML Benchmarks (Fixed Version)
+## 🧠 AI / ML Benchmarks (Final MLCommons Version)
 
-### 🧩 Core MLCommons Benchmarks
+### 🧩 MLCommons Benchmark Suites
 
-| Benchmark | Resource | Description |
-|------------|-----------|-------------|
-| **MLPerf Training** | [MLCommons Training](https://mlcommons.org/en/training-overview/) | Deep learning training benchmark across vision, NLP, and recommendation workloads |
-| **MLPerf Inference** | [MLCommons Inference](https://mlcommons.org/en/inference-overview/) | Inference latency and throughput benchmarking suite |
-| **MLPerf HPC** | [MLCommons HPC](https://mlcommons.org/en/hpc-overview/) | Evaluates large-scale AI model performance on HPC systems |
-| **MLPerf Tiny** | [MLCommons Tiny](https://mlcommons.org/en/tiny-overview/) | Lightweight benchmark for edge AI and microcontrollers |
-| **MLPerf Storage** | [MLCommons Storage](https://mlcommons.org/en/storage-overview/) | Benchmarks I/O and data pipelines for ML workloads |
-| **MLPerf Edge** | [MLCommons Edge](https://mlcommons.org/en/edge-overview/) | Measures on-device inference on edge and mobile hardware |
-
----
-
-### 🧮 Model & Framework-Specific Benchmarks
-
-| Framework / Model | Benchmark | Description |
-|-------------------|------------|--------------|
-| **Hugging Face Transformers** | [Benchmarking Transformers](https://huggingface.co/blog/benchmarking-transformers) | Comparison of BERT, GPT, and T5 model performance |
-| **vLLM** | [vLLM Benchmarks](https://vllm.ai/benchmark/) | High-throughput inference benchmark for LLM serving |
-| **ONNX Runtime** | [ONNX Performance Guide](https://onnxruntime.ai/docs/performance/) | Cross-platform inference optimization and benchmarking |
-| **NVIDIA Triton / TensorRT** | [Triton Inference Server Benchmarks](https://developer.nvidia.com/nvidia-triton-inference-server) | GPU-accelerated inference benchmarking suite |
-| **DeepSpeed** | [DeepSpeed Performance Docs](https://github.com/microsoft/DeepSpeed/tree/master/docs) | Parallel training and inference scaling performance |
-| **PyTorch** | [PyTorch Performance Guide](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) | Distributed training and inference performance tips |
-
----
-
-### 💻 Hardware / Accelerator Benchmarks
-
-| Hardware | Benchmark | Description |
-|-----------|------------|-------------|
-| **NVIDIA GPUs** | [MLPerf Results Portal](https://mlcommons.org/en/inference-results/) | Official MLPerf benchmark results for NVIDIA GPUs |
-| **AMD ROCm** | [ROCm Performance Reports](https://rocmdocs.amd.com/en/latest/performance.html) | Deep learning performance data for AMD GPUs |
-| **Intel Gaudi / Habana** | [Habana AI Benchmarks](https://habana.ai/training-benchmarks/) | Training and inference performance on Gaudi processors |
-
----
-
-### 🌍 Community & Aggregated Dashboards
-
-| Source | Benchmark | Description |
-|---------|------------|-------------|
-| **MLCommons Results Portal** | [MLCommons Results](https://mlcommons.org/en/results/) | Official MLPerf submissions (training, inference, HPC, edge) |
-| **Papers With Code – Benchmarks** | [Papers With Code Leaderboards](https://paperswithcode.com/sota) | Real-time model accuracy and performance leaderboards |
-| **AI-Benchmarks Portal** | [AI Benchmark Leaderboard](https://browse.ai-benchmarks.com/) | Independent repository of LLM inference cost and latency metrics |
+| Benchmark | URL | Description |
+|------------|-----|-------------|
+| **AILuminate Benchmark** | [https://mlcommons.org/benchmarks/ailuminate/](https://mlcommons.org/benchmarks/ailuminate/) | Research initiative focused on illuminating AI performance and transparency. |
+| **AlgoPerf: Training Algorithms** | [https://mlcommons.org/benchmarks/algorithms/](https://mlcommons.org/benchmarks/algorithms/) | Benchmarks for algorithmic efficiency and training scalability. |
+| **MLPerf Automotive** | [https://mlcommons.org/benchmarks/mlperf-automotive/](https://mlcommons.org/benchmarks/mlperf-automotive/) | Evaluates autonomous driving and in-vehicle AI workloads. |
+| **MLPerf Client** | [https://mlcommons.org/benchmarks/client/](https://mlcommons.org/benchmarks/client/) | Benchmark for local client-side machine learning inference. |
+| **MLPerf Inference: Datacenter** | [https://mlcommons.org/benchmarks/inference-datacenter/](https://mlcommons.org/benchmarks/inference-datacenter/) | Standard suite for datacenter-scale inference performance. |
+| **MLPerf Inference: Edge** | [https://mlcommons.org/benchmarks/inference-edge/](https://mlcommons.org/benchmarks/inference-edge/) | Evaluates inference workloads on embedded and IoT edge devices. |
+| **MLPerf Training: HPC** | [https://mlcommons.org/benchmarks/training-hpc/](https://mlcommons.org/benchmarks/training-hpc/) | High-performance computing benchmark for distributed AI training. |
+| **MLPerf Inference: Mobile** | [https://mlcommons.org/benchmarks/inference-mobile/](https://mlcommons.org/benchmarks/inference-mobile/) | Mobile device inference benchmarking suite. |
+| **MLPerf Storage** | [https://mlcommons.org/benchmarks/storage/](https://mlcommons.org/benchmarks/storage/) | Storage and data I/O performance benchmarks for ML pipelines. |
+| **MLPerf Inference: Tiny** | [https://mlcommons.org/benchmarks/inference-tiny/](https://mlcommons.org/benchmarks/inference-tiny/) | Benchmarking ultra-low-power and microcontroller ML inference. |
+| **MLPerf Training** | [https://mlcommons.org/benchmarks/training/](https://mlcommons.org/benchmarks/training/) | Industry standard for training performance across model classes. |
 
 ---
 
