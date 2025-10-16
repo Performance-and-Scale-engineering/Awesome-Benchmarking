@@ -2,7 +2,7 @@
 
 A curated collection of **benchmarking resources, performance studies, and scalability tests** across cloud platforms, databases, orchestration tools, AI models, and distributed systems.
 
-> 🧩 Maintained by [Apoorw Anand](https://github.com/apoorvanand)  
+> 🧩 Maintained by [Apoorw Anand] (https://github.com/apoorvanand) [Performance and Scale Engineering](https://github.com/Performance-and-Scale-engineering)  
 > 💡 Focused on real-world metrics — latency, throughput, resource utilization, and resiliency.
 
 ---
@@ -60,53 +60,64 @@ A curated collection of **benchmarking resources, performance studies, and scala
 
 ## 🧪 Load Testing Tools
 
-| Tool | Resource | Description |
-|------|-----------|-------------|
+| Tool | Benchmarking Resource | Description |
+|------|------------------------|-------------|
 | **JMeter** | [JMeter Best Practices](https://jmeter.apache.org/usermanual/best-practices.html) | General-purpose load and stress testing |
 | **Gatling** | [Gatling OSS Benchmarks](https://gatling.io/open-source/) | Simulation-based HTTP performance testing |
 | **Locust** | [Locust Distributed Benchmarks](https://docs.locust.io/en/stable/running-distributed.html) | Scalable load generation and orchestration |
 
 ---
 
-## 🧠 AI / ML Benchmarks
+## 🧠 AI / ML Benchmarks (Fixed Version)
 
-### 🧩 LLM Model Performance
+### 🧩 Core MLCommons Benchmarks
 
-| Model / Framework | Benchmark | Description |
-|-------------------|------------|-------------|
-| **OpenAI GPT Series** | [MLPerf Inference (NLP)](https://mlcommons.org/en/inference-nlp/) | Standardized NLP model benchmark |
-| **LLaMA / Mistral / Falcon** | [HuggingFace LLM Benchmarks](https://huggingface.co/blog/benchmarking-transformers) | Latency and throughput comparison across models |
-| **Gemma / Qwen / Mixtral** | [AI Benchmark Leaderboard](https://browse.ai-benchmarks.com/) | Inference cost and performance trade-offs |
-
-### ⚙️ Inference & Serving Frameworks
-
-| Framework | Benchmark | Description |
-|------------|------------|-------------|
-| **TensorRT / Triton** | [NVIDIA Triton Benchmarks](https://developer.nvidia.com/nvidia-triton-inference-server) | GPU inference performance for production |
-| **ONNX Runtime** | [ONNX Performance Tuning](https://onnxruntime.ai/docs/performance/) | Cross-platform inference optimization |
-| **vLLM / FastChat** | [vLLM Performance Docs](https://vllm.ai/) | High-throughput, memory-efficient serving benchmark |
-
-### 💻 GPU / Hardware Benchmarks
-
-| Platform | Resource | Description |
-|-----------|-----------|-------------|
-| **NVIDIA CUDA / Tensor Cores** | [MLPerf Training Benchmarks](https://mlcommons.org/en/training-overview/) | GPU-based distributed training benchmarks |
-| **AMD ROCm** | [ROCm Performance Tests](https://rocmdocs.amd.com/en/latest/performance.html) | Benchmarking deep learning performance on AMD GPUs |
-| **Intel Gaudi / Habana** | [Habana AI Benchmark Suite](https://habana.ai/training-benchmarks/) | AI workload performance on Gaudi accelerators |
+| Benchmark | Resource | Description |
+|------------|-----------|-------------|
+| **MLPerf Training** | [MLCommons Training](https://mlcommons.org/en/training-overview/) | Deep learning training benchmark across vision, NLP, and recommendation workloads |
+| **MLPerf Inference** | [MLCommons Inference](https://mlcommons.org/en/inference-overview/) | Inference latency and throughput benchmarking suite |
+| **MLPerf HPC** | [MLCommons HPC](https://mlcommons.org/en/hpc-overview/) | Evaluates large-scale AI model performance on HPC systems |
+| **MLPerf Tiny** | [MLCommons Tiny](https://mlcommons.org/en/tiny-overview/) | Lightweight benchmark for edge AI and microcontrollers |
+| **MLPerf Storage** | [MLCommons Storage](https://mlcommons.org/en/storage-overview/) | Benchmarks I/O and data pipelines for ML workloads |
+| **MLPerf Edge** | [MLCommons Edge](https://mlcommons.org/en/edge-overview/) | Measures on-device inference on edge and mobile hardware |
 
 ---
 
-## 🧵 Messaging & Streaming Systems
+### 🧮 Model & Framework-Specific Benchmarks
 
-| System | Benchmark | Description |
+| Framework / Model | Benchmark | Description |
+|-------------------|------------|--------------|
+| **Hugging Face Transformers** | [Benchmarking Transformers](https://huggingface.co/blog/benchmarking-transformers) | Comparison of BERT, GPT, and T5 model performance |
+| **vLLM** | [vLLM Benchmarks](https://vllm.ai/benchmark/) | High-throughput inference benchmark for LLM serving |
+| **ONNX Runtime** | [ONNX Performance Guide](https://onnxruntime.ai/docs/performance/) | Cross-platform inference optimization and benchmarking |
+| **NVIDIA Triton / TensorRT** | [Triton Inference Server Benchmarks](https://developer.nvidia.com/nvidia-triton-inference-server) | GPU-accelerated inference benchmarking suite |
+| **DeepSpeed** | [DeepSpeed Performance Docs](https://github.com/microsoft/DeepSpeed/tree/master/docs) | Parallel training and inference scaling performance |
+| **PyTorch** | [PyTorch Performance Guide](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) | Distributed training and inference performance tips |
+
+---
+
+### 💻 Hardware / Accelerator Benchmarks
+
+| Hardware | Benchmark | Description |
+|-----------|------------|-------------|
+| **NVIDIA GPUs** | [MLPerf Results Portal](https://mlcommons.org/en/inference-results/) | Official MLPerf benchmark results for NVIDIA GPUs |
+| **AMD ROCm** | [ROCm Performance Reports](https://rocmdocs.amd.com/en/latest/performance.html) | Deep learning performance data for AMD GPUs |
+| **Intel Gaudi / Habana** | [Habana AI Benchmarks](https://habana.ai/training-benchmarks/) | Training and inference performance on Gaudi processors |
+
+---
+
+### 🌍 Community & Aggregated Dashboards
+
+| Source | Benchmark | Description |
 |---------|------------|-------------|
-| **Kafka** | [Kafka Official Performance Guide](https://kafka.apache.org/documentation/#design_performance) | Producer, consumer, and replication benchmarks |
-| **RabbitMQ** | [RabbitMQ Perf Test](https://github.com/rabbitmq/rabbitmq-perf-test) | Native throughput and latency testing |
-| **NATS** | [NATS Benchmarks](https://github.com/nats-io/nats-bench) | Pub/sub message latency and fan-out benchmarks |
+| **MLCommons Results Portal** | [MLCommons Results](https://mlcommons.org/en/results/) | Official MLPerf submissions (training, inference, HPC, edge) |
+| **Papers With Code – Benchmarks** | [Papers With Code Leaderboards](https://paperswithcode.com/sota) | Real-time model accuracy and performance leaderboards |
+| **AI-Benchmarks Portal** | [AI Benchmark Leaderboard](https://browse.ai-benchmarks.com/) | Independent repository of LLM inference cost and latency metrics |
 
 ---
 
 ## 🧰 Contributing
+
 Pull requests welcome! Please ensure:
 - Links are **official**, **recent**, and **quantitative**
 - Add section summaries and short descriptions for clarity
