@@ -2,7 +2,7 @@
 
 A curated collection of **benchmarking resources, performance studies, and scalability tests** across cloud platforms, databases, orchestration tools, AI models, and distributed systems.
 
-> 🧩 Maintained by [Apoorw Anand] (https://github.com/apoorvanand) [Performance and Scale Engineering](https://github.com/Performance-and-Scale-engineering)  
+> 🧩 Maintained by [Apoorw Anand](https://github.com/apoorvanand) [Performance and Scale Engineering](https://github.com/Performance-and-Scale-engineering)  
 > 💡 Focused on real-world metrics — latency, throughput, resource utilization, and resiliency.
 
 ---
